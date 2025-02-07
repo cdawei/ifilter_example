@@ -11,3 +11,5 @@ Stone, L.D., Streit, R.L., Anderson, S.L. (2023). [Intensity Filters](https://do
 2. Install the required Python packages: `pip install -r requirements.txt`
 
 3. Run the main script: `python main_ifilter.py`
+
+4. Relax and wait for the script to complete, results can then be found in the generated PNG figure.
