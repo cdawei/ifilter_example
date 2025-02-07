@@ -14,8 +14,7 @@ from simulator import (
 # Q_S_PHI = 2e-4 / 180000.  # q(s | phi)
 # Q_PHI_S = 1e-6            # q(phi | s)
 Q_S_PHI = 1e-6            # q(s | phi)
-# Q_PHI_S = 2e-4 / 180000.  # q(phi | s)
-Q_PHI_S = 2e-4 / 1800.  # q(phi | s)
+Q_PHI_S = 2e-4 / 180000.  # q(phi | s)
 Q_PHI_PHI = 1. - 2e-4     # q(phi | phi)
 L_Y_PHI = 1. / (1600**2)  # l(y | phi)
 
