@@ -150,7 +150,7 @@ class iFilter:
             x1, x2 = self.particles[i, :2]  # note that x1 determines the column, x2 determines the row
             row_ix = math.floor((x2 + 800) / grid_size)
             col_ix = math.floor((x1 + 800) / grid_size)
-            if row_ix < imap.shape[0] and col_ix < imap.shape[1]:
+            if 0 <= row_ix < imap.shape[0] and 0 <= col_ix < imap.shape[1]:
                 imap[row_ix, col_ix] += self.intensities[i]  # accumulate particle intensities in the cell
         return imap
 
